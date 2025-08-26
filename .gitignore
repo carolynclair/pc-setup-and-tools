@@ -1,0 +1,12 @@
+﻿# Windows
+Thumbs.db
+*.log
+*.tmp
+
+# Unity (future)
+Library/
+Temp/
+Obj/
+Build/
+.vs/
+*.user
