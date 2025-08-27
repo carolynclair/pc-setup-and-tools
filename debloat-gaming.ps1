@@ -1,6 +1,5 @@
 <# 
   debloat-gaming.ps1
-  Purpose: Strip Windows 11 for gaming/dev (Warmane + Unity) while keeping NVIDIA & Warperia.
   Default: Safe (keeps MS Store, Search; disables Defender *real-time* only).
   Optional: -Aggressive to disable more services (Search, SysMain), remove more inbox apps.
 
@@ -171,3 +170,4 @@ Write-Host "Notes:"
 Write-Host " - NVIDIA app and Warperia are untouched."
 Write-Host " - Defender real-time OFF (safe). Re-enable with:  Set-MpPreference -DisableRealtimeMonitoring \$false"
 Write-Host " - Aggressive mode additionally disables Search/SysMain & removes more apps."
+
